@@ -4,7 +4,7 @@ const TodoItem = (props) => {
         <li className='todo-item'>
             <div className='row'>
                 <div className='choose'></div>
-            <p> {props.text}</p>
+                <p> {props.text}</p>
             </div>
             <button>Remove</button>
         </li>

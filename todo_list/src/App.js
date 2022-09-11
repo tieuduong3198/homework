@@ -5,12 +5,12 @@ import Footer from './Component/Footer';
 
 function App() {
   return (
-   
+
     <div className='app'>
-       <header>Todo List</header>
+      <header>Todo List</header>
       <div className='app-main'>
-      <TodoAdd />
-      <TodoList />
+        <TodoAdd />
+        <TodoList />
       </div>
       <Footer />
     </div>
