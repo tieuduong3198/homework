@@ -11,3 +11,6 @@ function  run() {
 console.log(c);
 console.log(d);s
 }
+var x 
+console.log(x) // undefined
+x = 1
