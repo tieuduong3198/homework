@@ -1,17 +1,24 @@
 import React from 'react';
 import { useState } from 'react';
+import "./App.css"
 
 function App() {
   const [number, setNumber] = useState(1)
-const
+  const changeNumber = () => {
+    if (number === 3) {
+      setNumber(1)
+      return
+    }
+    setNumber(number + 1)
+  }
 
   return (
-    <div className="app">
-      <Button>Next</Button>
-      <div>
-        <Light />
-        <Light />
-        <Light />
+    <div className="App">
+      <Button onClick={changeNumber}>Next</Button>
+      <div className='Lights'>
+        <Light active={number === 1} />
+        <Light active={number === 2} />
+        <Light active={number === 3} />
       </div>
     </div>
   );
@@ -21,7 +28,7 @@ function Button({ onClick, children }) {
   return <button onClick={onClick}> {children}</button>
 }
 function Light({ active }) {
-  return <div className=' '></div>
+  return <div className={Light ${active ? 'true' :''}}></div >
 
 }
 

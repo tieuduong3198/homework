@@ -1,0 +1,27 @@
+.App {
+    text-align: center;
+}
+
+.Lights {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.Light {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.Lights :first-child {
+    background-color: red;
+}
+.Lights :nth-child(2) {
+    background-color: yellow;
+}
+.Lights :last-child {
+    background-color: green;
+}

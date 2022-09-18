@@ -8,6 +8,22 @@ header {
     font-weight: bold;
     text-align: center;
 }
+
+.app-main form {
+    margin: 20px;
+}
 .app-main form  input {
     width: 100%;
+    border: 0;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+}
+
+.app-main .todo-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.app-main .todo-list ul .todo-item p {
+    
 }
